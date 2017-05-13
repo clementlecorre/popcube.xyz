@@ -7,6 +7,8 @@ networks:
 services:
   website:
     image: registry.popcube.xyz:5000/popcube_website:latest
+    networks:
+      - traefik-net
     deploy:
       labels:
         traefik.port: "80"
