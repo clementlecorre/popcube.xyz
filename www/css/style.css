@@ -193,7 +193,7 @@ header[role="header"].header-top section p{ font-size:19px; line-height:20px; fo
 
 header[role="header"].header-top section a.button-header{ display: inline-block; text-align:center; margin:0 auto; line-height:63px; font-size:16px; font-weight:400; padding:0 53px; color:#FFF; background-color:#87318C; border-radius:4px; text-transform:uppercase}
 
-header[role="header"].header-top section a.button-header:hover{background-color:#5ea246; text-decoration:none}
+header[role="header"].header-top section a.button-header:hover{background-color:#731B79; text-decoration:none}
 
 header[role="header"].header-top section a.video-button,.video-pan header a.video-button{ margin:67px auto; margin-bottom:60px; display:block; cursor:pointer; outline:none; background-color:transparent; border:3px solid #FFF; border-radius:100%; width:94px; height:94px; line-height:94px; font-size:60px; text-align:center; color:#FFF;}
 
@@ -335,9 +335,9 @@ header[role="title-page"] h2,header[role="title-page"] h2{ color:#000; font-size
 
 .pricing>section input[type="button"]{ margin:27px auto; display:block; text-align:center; text-transform:uppercase; color:#FFF; outline:none; cursor:pointer; line-height:53px; font-size:14px; font-weight:700; color:#87318C; background-color:#FFF; padding:0 32px}
 
-.pricing>section input[type="button"]:hover{ background-color:#549e3a; color:#FFF}
+.pricing>section input[type="button"]:hover{ background-color:#731B79; color:#FFF}
 
-.pricing>section:hover{ background-color:#83c76c;-webkit-transform:scale(1.1);
+.pricing>section:hover{ background-color:#C080C4;-webkit-transform:scale(1.1);
 
 transform:scale(1.1);}
 
