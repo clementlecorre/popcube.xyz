@@ -913,6 +913,9 @@
           <!-- nav -->
 
           <p class="copy">&copy; 2017 Popcube. All rights reserved. Made with <i class="fa fa-heart pulse"></i> by Popcube</p>
+          <br/><br>
+          <p class="copy" id="average_response_time"></p>
+          <p class="copy" id="total_count"></p>
 
         </div>
 
@@ -971,3 +974,14 @@
   </body>
 
   </html>
+<script type="text/javascript">
+var interval = 3000;  // 1000 = 1 second, 3000 = 3 seconds
+function doAjax() {
+    $.getJSON("http://popcube.xyz:8080/health", function(result){
+       $("#average_response_time").text("Average response time : " + result.average_response_time);
+       $("#total_count").text("Total request : " + result.total_count);
+        setTimeout(doAjax, interval);
+    });
+}
+setTimeout(doAjax, interval);
+</script>
